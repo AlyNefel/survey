@@ -129,7 +129,7 @@
     </div>
 
     <script>
-        axios.get('http://localhost:5000/api/admin/responses')
+        axios.get('https://backend-survey-2.onrender.com/api/admin/responses')
             .then(res => {
                 const responses = res.data;
                 document.getElementById("totalResponses").textContent = responses.length;

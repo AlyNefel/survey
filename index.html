@@ -395,7 +395,7 @@ setVanta('net'); // Change 'net' to 'waves' or 'birds' to test other effects
       };
 
       try {
-        const response = await fetch('http://localhost:5000/api/form/submit', {
+        const response = await fetch('https://backend-survey-2.onrender.com/api/form/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
